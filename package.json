@@ -1,0 +1,25 @@
+{
+  "name": "-mocha",
+  "version": "1.0.0",
+  "description": "mochatest",
+  "main": "test.js",
+  "scripts": {
+    "test": "mocha test.js --reporter mocha-simple-html-reporter --reporter-options output=report.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k186/-Mocha.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k186/-Mocha/issues"
+  },
+  "homepage": "https://github.com/k186/-Mocha#readme",
+
+  "devDependencies": {
+    "mocha-simple-html-reporter": "^1.1.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  }
+}
